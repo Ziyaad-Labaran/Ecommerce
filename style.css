@@ -324,7 +324,7 @@ ul {
 }
 
 #black1 {
-    background: url(stylish-black-girl-city.jpg);
+    background: url(imgs/stylish-black-girl-city.jpg);
     background-position: top;
     background-size: cover;
     /* background: brightness(70%); */
@@ -333,7 +333,7 @@ ul {
 }
 
 #black2 {
-    background: url(african-american-man.jpg);
+    background: url(imgs/african-american-man.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -341,7 +341,7 @@ ul {
 }
 
 #black3 {
-    background: url(woman-showing-her-nail-art-fingernails-with-watch.jpg);
+    background: url(imgs/woman-showing-her-nail-art-fingernails-with-watch.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
