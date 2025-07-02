@@ -1,0 +1,442 @@
+:root {
+    --primary-color: #003366;
+    --secondary-color: #c0c0c0;
+    --third-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--third-color);
+}
+
+.upper-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    height: 7vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+nav a {
+    color: var(--third-color);
+}
+
+#search-bar {
+    width: 250px;
+    padding: 8px;
+}
+
+.field {
+    width: 300px;
+    margin: 4vh auto;
+}
+
+.input-count {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-count input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.input-count i {
+    position: absolute;
+    right: 0;
+    margin-right: 35px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--third-color);
+}
+
+select {
+    color: var(--third-color);
+    background-color: transparent;
+    border: none;
+}
+
+option {
+    color: black;
+}
+
+.first-section {
+    height: 80vh;
+    background: url(imgs/african-american-woman-experiencing-vr-simulation.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+.first-text {
+    font-size: 1.7rem;
+    padding: 3rem;
+    margin-left: 1.5rem;
+    margin-top: 14rem;
+
+}
+
+.first-text button {
+    padding: 0.3rem;
+    background-color: transparent;
+    border: 2px solid orange;
+    width: 9rem;
+}
+
+.first-text button:hover {
+    border: 2px solid rgb(255, 0, 98);
+}
+
+
+
+#choose {
+    font-size: 1.1rem;
+}
+
+.lower-section {
+    width: 85%;
+    height: 20vh;
+    margin-top: -30px;
+    background: var(--third-color);
+    z-index: 2;
+    position: absolute;
+    box-shadow: 3px 3px 4px 2px rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner {
+    display: flex;
+}
+
+i {
+    padding: 14px;
+}
+
+.top-items {
+    display: grid;
+    padding-left: 7%;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 2fr));
+}
+
+img {
+    max-height: 170px;
+}
+
+.box {
+    width: 47%;
+    height: 150px;
+
+}
+
+.two-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 2%;
+}
+
+#box1 {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(87, 88, 88, 0.507)), url(imgs/Casely-iphone-13-cases.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.3rem;
+}
+
+#box2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(87, 88, 88, 0.507)), url(imgs/airpods.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.3rem;
+}
+
+.main-items {
+    max-width: 1400px;
+    display: grid;
+    padding-top: 10px;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+
+.second-section {
+    border: 1px solid var(--secondary-color);
+    padding: 25px;
+}
+
+.boxs {
+    /* border: 1px solid var(--secondary-color); */
+    background-color: #f0f0f1;
+}
+
+.add {
+    /* border: 1px solid var(--secondary-color); */
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.add button{
+    width: 40%;
+    border: none;
+    background-color: rgba(26, 148, 248, 0.623);
+    border-radius: 6px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.price , .Add , .boxs p  {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.names {
+    color: var(--primary-color);
+}
+
+.Ad-container {
+    width: 1400px;
+    background: rgb(38, 38, 38);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+.items button {
+    padding: 0.8rem;
+    width: 7rem;
+}
+
+span {
+    color: orange;
+}
+
+.container01 {
+    width: 1400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container02-main {
+    height: 100vh;
+}
+
+.cont-sub1 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cont-card01 {
+    padding: 3rem;
+    color: rgb(70, 79, 79);
+    padding: 2rem;
+    height: 27vh;
+    filter: brightness(60%);
+    cursor: pointer;
+}
+
+.cont-card01:hover {
+    touch-action: double-tap-zoom;
+
+}
+
+.cont-card01 h1,
+.cont-sub2 h1 {
+    z-index: 100;
+    color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+}
+
+.cont-sub2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cont-card02 {
+    padding: 3.5rem;
+    /* background-color: rgb(70, 79, 79); */
+    width: 22.5%;
+    height: 32vh;
+    filter: brightness(50%);
+}
+
+.container-first {
+    max-width: 1099px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+#black1 {
+    background: url(stylish-black-girl-city.jpg);
+    background-position: top;
+    background-size: cover;
+    /* background: brightness(70%); */
+    background-repeat: no-repeat;
+    width: 55%;
+}
+
+#black2 {
+    background: url(african-american-man.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+}
+
+#black3 {
+    background: url(woman-showing-her-nail-art-fingernails-with-watch.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#black4 {
+    background: url(close-up-vintage-shoes-with-purple-laces-bouquet-roses.jpg);
+    background-position: center;
+    background-size: cover;
+    /* backdrop-filter: blur(100%); */
+    background-repeat: no-repeat;
+
+    width: 55%;
+}
+
+
+
+.footer {
+    background-color: #24262b;
+    padding: 30px 0;
+}
+
+.footer-col {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
