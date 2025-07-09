@@ -292,11 +292,12 @@ span {
 }
 
 .cont-card01 h1,
-.cont-sub2 h1 {
+.cont-sub2 h1{
     z-index: 100;
     color: rgb(255, 255, 255);
     font-size: 1.9rem;
 }
+
 
 .cont-sub2 {
     display: flex;
@@ -306,11 +307,11 @@ span {
 
 .cont-card02 {
     padding: 3.5rem;
-    /* background-color: rgb(70, 79, 79); */
     width: 22.5%;
     height: 32vh;
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
+
 
 .container-first {
     max-width: 1099px;
