@@ -306,7 +306,7 @@ span {
     /* background-color: rgb(70, 79, 79); */
     width: 22.5%;
     height: 32vh;
-    filter: brightness(50%);
+    filter: brightness(70%);
 }
 
 .container-first {
@@ -347,7 +347,7 @@ ul {
 }
 
 #black4 {
-    background: url(close-up-vintage-shoes-with-purple-laces-bouquet-roses.jpg);
+    background: url(imgs/4097522.jpg);
     background-position: center;
     background-size: cover;
     /* backdrop-filter: blur(100%); */
