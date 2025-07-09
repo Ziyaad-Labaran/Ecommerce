@@ -337,7 +337,7 @@ ul {
 #black2 {
     background: url(imgs/top-view-virtual-reality-headset-keyboard.jpg);
     background-position: center;
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     width: 30%;
 }
