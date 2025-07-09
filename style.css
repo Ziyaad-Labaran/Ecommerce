@@ -428,7 +428,11 @@ ul {
     color: #24262b;
     background-color: #ffffff;
 }
-
+.footer-last{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
 
 @media(max-width: 767px) {
     .footer-col {
